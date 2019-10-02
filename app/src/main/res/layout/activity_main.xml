@@ -99,4 +99,28 @@
         app:layout_constraintTop_toBottomOf="@+id/box_two_text"
         app:layout_constraintVertical_bias="0.027" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="530dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
