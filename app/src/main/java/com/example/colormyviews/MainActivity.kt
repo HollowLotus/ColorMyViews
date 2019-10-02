@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setListeners() {
         val clickableViews: List<View> =
-            listOf(ConstraintLayout, box_two_text, box_three_text, box_four_text, box_five_text)
+            listOf(box_one_text, box_two_text, box_three_text, box_four_text, box_five_text, constraint_layout)
 
         for (item in clickableViews) {
             item.setOnClickListener { makeColored(it) }
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         when (view.id) {
 
             // Boxes using Color class colors for background
-            R.id.ConstraintLayout -> view.setBackgroundColor(Color.DKGRAY)
+            R.id.constraint_layout -> view.setBackgroundColor(Color.DKGRAY)
             R.id.box_two_text -> view.setBackgroundColor(Color.GRAY)
 
             // Boxes using Android color resources for background
